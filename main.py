@@ -61,7 +61,6 @@ def Play(strikes,res,word):
     Clear()
     print("Porfavor ingrese una letra")
     print(strikes)
-    print(word)
     print(String(res))
     Win(word,res)
     letter = input(":").upper() #Ingreso de letra 
